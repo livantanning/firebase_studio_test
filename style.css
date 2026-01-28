@@ -185,6 +185,77 @@ body.dark-mode {
       margin-bottom: 5px;
     }
 
+    .partnership-inquiry {
+      margin-top: 40px;
+      padding-top: 30px;
+      border-top: 2px dashed var(--dashed-border-color);
+      text-align: center;
+    }
+
+    .partnership-inquiry h2 {
+      color: var(--main-text-color);
+      margin-bottom: 10px;
+      font-size: 1.8rem;
+    }
+
+    .partnership-inquiry .subtitle {
+      margin-bottom: 25px;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+      padding: 12px 15px;
+      border: 1px solid var(--dashed-border-color);
+      border-radius: 8px;
+      font-size: 1rem;
+      background: var(--history-item-bg);
+      color: var(--main-text-color);
+      transition: border-color 0.3s ease;
+    }
+
+    .contact-form input[type="text"]:focus,
+    .contact-form input[type="email"]:focus,
+    .contact-form textarea:focus {
+      border-color: #667eea;
+      outline: none;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+    }
+
+    .submit-btn {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+      margin-top: 10px;
+    }
+
+    .submit-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+    }
+
+    .form-note {
+      color: var(--subtitle-color);
+      font-size: 0.8rem;
+      margin-top: 15px;
+    }
+
     @keyframes bounce {
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-10px); }
