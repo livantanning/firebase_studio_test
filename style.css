@@ -256,6 +256,20 @@ body.dark-mode {
       margin-top: 15px;
     }
 
+    .comments-section {
+      margin-top: 40px;
+      padding-top: 30px;
+      border-top: 2px dashed var(--dashed-border-color);
+      text-align: left;
+    }
+
+    .comments-section h2 {
+      text-align: center;
+      color: var(--main-text-color);
+      margin-bottom: 25px;
+      font-size: 1.8rem;
+    }
+
     @keyframes bounce {
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-10px); }
